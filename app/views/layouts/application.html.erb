@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>ProjectManagement</title>
-    <%= csrf_meta_tags %>
+<head>
+  <title>ProjectManagement</title>
+  <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
 
-  <body>
+<body>
+
+  <div class="container">
     <%= yield %>
-  </body>
+  </div>
+</body>
 </html>
